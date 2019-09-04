@@ -56,6 +56,13 @@
                 }
             }
 代码中enable作为使能开关，parentScrollView最底层的UIScrollView，childScrollViews所有子UIScrollView的数组。canNotScroll是给UIScrollView做的扩展属性。- (void)scrollViewDidScroll:(UIScrollView *)scrollView；是所有UIScrollView的回调方法加入到UIScrollViewDelegate中调用即可达到目的。
+
 3. 这样做最大的优点是最小量的代码掺入到业务逻辑和UI架构中，使得本来就复杂的项目相对简单清晰一些。
+
+4. 使用方法：生成一个实例，赋值parentScrollView，childScrollViews直接addObject；然后
+
+        - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+           [self.scrollManager scrollViewDidScroll:scrollView];
+        }
 
 github:https://github.com/caicai0/PersonCenterScrollManager
