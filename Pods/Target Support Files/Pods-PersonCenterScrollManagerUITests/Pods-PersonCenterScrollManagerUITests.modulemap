@@ -1,0 +1,6 @@
+framework module Pods_PersonCenterScrollManagerUITests {
+  umbrella header "Pods-PersonCenterScrollManagerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE24B516BE45F9757C0FB3A /* Pods_PersonCenterScrollManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AB4A59266C7C06A228016D /* Pods_PersonCenterScrollManagerUITests.framework */; };
+		79CA77D87DA5D00EC7FBB6C4 /* Pods_PersonCenterScrollManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8961FEB0D2FAEB0E53C1468 /* Pods_PersonCenterScrollManagerTests.framework */; };
+		BF461EC2DBD75EAEB66B5174 /* Pods_PersonCenterScrollManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F087DE0BD8A42C0CDB01B9 /* Pods_PersonCenterScrollManager.framework */; };
+		C6D945C5231FF39F0097B87D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945C4231FF39F0097B87D /* AppDelegate.m */; };
+		C6D945C8231FF39F0097B87D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945C7231FF39F0097B87D /* SceneDelegate.m */; };
+		C6D945CB231FF39F0097B87D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945CA231FF39F0097B87D /* ViewController.m */; };
+		C6D945CE231FF39F0097B87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D945CC231FF39F0097B87D /* Main.storyboard */; };
+		C6D945D0231FF3A10097B87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D945CF231FF3A10097B87D /* Assets.xcassets */; };
+		C6D945D3231FF3A10097B87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D945D1231FF3A10097B87D /* LaunchScreen.storyboard */; };
+		C6D945D6231FF3A10097B87D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945D5231FF3A10097B87D /* main.m */; };
+		C6D945E0231FF3A10097B87D /* PersonCenterScrollManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945DF231FF3A10097B87D /* PersonCenterScrollManagerTests.m */; };
+		C6D945EB231FF3A10097B87D /* PersonCenterScrollManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945EA231FF3A10097B87D /* PersonCenterScrollManagerUITests.m */; };
+		C6D945FF231FF5E70097B87D /* UIScrollView+ScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945FB231FF5E70097B87D /* UIScrollView+ScrollManager.m */; };
+		C6D94600231FF5E70097B87D /* UIScrollView+ScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945FB231FF5E70097B87D /* UIScrollView+ScrollManager.m */; };
+		C6D94601231FF5E70097B87D /* UIScrollView+ScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945FB231FF5E70097B87D /* UIScrollView+ScrollManager.m */; };
+		C6D94602231FF5E70097B87D /* ScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945FC231FF5E70097B87D /* ScrollManager.m */; };
+		C6D94603231FF5E70097B87D /* ScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945FC231FF5E70097B87D /* ScrollManager.m */; };
+		C6D94604231FF5E70097B87D /* ScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D945FC231FF5E70097B87D /* ScrollManager.m */; };
+		C6D94608231FF7030097B87D /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D94607231FF7030097B87D /* PersonalCenterViewController.m */; };
+		C6D94609231FF7030097B87D /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D94607231FF7030097B87D /* PersonalCenterViewController.m */; };
+		C6D9460A231FF7030097B87D /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D94607231FF7030097B87D /* PersonalCenterViewController.m */; };
+		C6D9460D231FF72B0097B87D /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D9460C231FF72B0097B87D /* SubViewController.m */; };
+		C6D9460E231FF72B0097B87D /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D9460C231FF72B0097B87D /* SubViewController.m */; };
+		C6D9460F231FF72B0097B87D /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D9460C231FF72B0097B87D /* SubViewController.m */; };
+		C6D94613231FFF820097B87D /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D94612231FFF820097B87D /* BaseScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6D945DC231FF3A10097B87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D945B8231FF39F0097B87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D945BF231FF39F0097B87D;
+			remoteInfo = PersonCenterScrollManager;
+		};
+		C6D945E7231FF3A10097B87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D945B8231FF39F0097B87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D945BF231FF39F0097B87D;
+			remoteInfo = PersonCenterScrollManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1588E7B50C2D55E243C28C61 /* Pods-PersonCenterScrollManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenterScrollManagerTests.release.xcconfig"; path = "Target Support Files/Pods-PersonCenterScrollManagerTests/Pods-PersonCenterScrollManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		16AB4A59266C7C06A228016D /* Pods_PersonCenterScrollManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonCenterScrollManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8394EE0339A574353B00BAB7 /* Pods-PersonCenterScrollManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenterScrollManager.release.xcconfig"; path = "Target Support Files/Pods-PersonCenterScrollManager/Pods-PersonCenterScrollManager.release.xcconfig"; sourceTree = "<group>"; };
+		8C3905C5346C29BDCCC268D1 /* Pods-PersonCenterScrollManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenterScrollManager.debug.xcconfig"; path = "Target Support Files/Pods-PersonCenterScrollManager/Pods-PersonCenterScrollManager.debug.xcconfig"; sourceTree = "<group>"; };
+		A717EF39F9BE8B72F291625B /* Pods-PersonCenterScrollManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenterScrollManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-PersonCenterScrollManagerUITests/Pods-PersonCenterScrollManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8961FEB0D2FAEB0E53C1468 /* Pods_PersonCenterScrollManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonCenterScrollManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5566FA4A78AAF9AB0308CF /* Pods-PersonCenterScrollManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenterScrollManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-PersonCenterScrollManagerTests/Pods-PersonCenterScrollManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F087DE0BD8A42C0CDB01B9 /* Pods_PersonCenterScrollManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonCenterScrollManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D945C0231FF39F0097B87D /* PersonCenterScrollManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonCenterScrollManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D945C3231FF39F0097B87D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6D945C4231FF39F0097B87D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6D945C6231FF39F0097B87D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C6D945C7231FF39F0097B87D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C6D945C9231FF39F0097B87D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6D945CA231FF39F0097B87D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6D945CD231FF39F0097B87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6D945CF231FF3A10097B87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6D945D2231FF3A10097B87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6D945D4231FF3A10097B87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D945D5231FF3A10097B87D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6D945DB231FF3A10097B87D /* PersonCenterScrollManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonCenterScrollManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D945DF231FF3A10097B87D /* PersonCenterScrollManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterScrollManagerTests.m; sourceTree = "<group>"; };
+		C6D945E1231FF3A10097B87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D945E6231FF3A10097B87D /* PersonCenterScrollManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonCenterScrollManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D945EA231FF3A10097B87D /* PersonCenterScrollManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterScrollManagerUITests.m; sourceTree = "<group>"; };
+		C6D945EC231FF3A10097B87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D945FB231FF5E70097B87D /* UIScrollView+ScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ScrollManager.m"; sourceTree = "<group>"; };
+		C6D945FC231FF5E70097B87D /* ScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollManager.m; sourceTree = "<group>"; };
+		C6D945FD231FF5E70097B87D /* UIScrollView+ScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScrollManager.h"; sourceTree = "<group>"; };
+		C6D945FE231FF5E70097B87D /* ScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollManager.h; sourceTree = "<group>"; };
+		C6D94606231FF7030097B87D /* PersonalCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		C6D94607231FF7030097B87D /* PersonalCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		C6D9460B231FF72B0097B87D /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		C6D9460C231FF72B0097B87D /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		C6D94611231FFF820097B87D /* BaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScrollView.h; sourceTree = "<group>"; };
+		C6D94612231FFF820097B87D /* BaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScrollView.m; sourceTree = "<group>"; };
+		F6CD413FE4F1177C21CC3718 /* Pods-PersonCenterScrollManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenterScrollManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-PersonCenterScrollManagerUITests/Pods-PersonCenterScrollManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6D945BD231FF39F0097B87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF461EC2DBD75EAEB66B5174 /* Pods_PersonCenterScrollManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D945D8231FF3A10097B87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CA77D87DA5D00EC7FBB6C4 /* Pods_PersonCenterScrollManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D945E3231FF3A10097B87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE24B516BE45F9757C0FB3A /* Pods_PersonCenterScrollManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0555A1F7842897538F1CB4DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F087DE0BD8A42C0CDB01B9 /* Pods_PersonCenterScrollManager.framework */,
+				A8961FEB0D2FAEB0E53C1468 /* Pods_PersonCenterScrollManagerTests.framework */,
+				16AB4A59266C7C06A228016D /* Pods_PersonCenterScrollManagerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA15E1F33BC9D6D804D7E8A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C3905C5346C29BDCCC268D1 /* Pods-PersonCenterScrollManager.debug.xcconfig */,
+				8394EE0339A574353B00BAB7 /* Pods-PersonCenterScrollManager.release.xcconfig */,
+				AB5566FA4A78AAF9AB0308CF /* Pods-PersonCenterScrollManagerTests.debug.xcconfig */,
+				1588E7B50C2D55E243C28C61 /* Pods-PersonCenterScrollManagerTests.release.xcconfig */,
+				F6CD413FE4F1177C21CC3718 /* Pods-PersonCenterScrollManagerUITests.debug.xcconfig */,
+				A717EF39F9BE8B72F291625B /* Pods-PersonCenterScrollManagerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6D945B7231FF39F0097B87D = {
+			isa = PBXGroup;
+			children = (
+				C6D945C2231FF39F0097B87D /* PersonCenterScrollManager */,
+				C6D945DE231FF3A10097B87D /* PersonCenterScrollManagerTests */,
+				C6D945E9231FF3A10097B87D /* PersonCenterScrollManagerUITests */,
+				C6D945C1231FF39F0097B87D /* Products */,
+				AA15E1F33BC9D6D804D7E8A1 /* Pods */,
+				0555A1F7842897538F1CB4DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6D945C1231FF39F0097B87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6D945C0231FF39F0097B87D /* PersonCenterScrollManager.app */,
+				C6D945DB231FF3A10097B87D /* PersonCenterScrollManagerTests.xctest */,
+				C6D945E6231FF3A10097B87D /* PersonCenterScrollManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6D945C2231FF39F0097B87D /* PersonCenterScrollManager */ = {
+			isa = PBXGroup;
+			children = (
+				C6D94605231FF6C50097B87D /* center */,
+				C6D945FA231FF5E70097B87D /* manager */,
+				C6D945C3231FF39F0097B87D /* AppDelegate.h */,
+				C6D945C4231FF39F0097B87D /* AppDelegate.m */,
+				C6D945C6231FF39F0097B87D /* SceneDelegate.h */,
+				C6D945C7231FF39F0097B87D /* SceneDelegate.m */,
+				C6D945C9231FF39F0097B87D /* ViewController.h */,
+				C6D945CA231FF39F0097B87D /* ViewController.m */,
+				C6D945CC231FF39F0097B87D /* Main.storyboard */,
+				C6D945CF231FF3A10097B87D /* Assets.xcassets */,
+				C6D945D1231FF3A10097B87D /* LaunchScreen.storyboard */,
+				C6D945D4231FF3A10097B87D /* Info.plist */,
+				C6D945D5231FF3A10097B87D /* main.m */,
+			);
+			path = PersonCenterScrollManager;
+			sourceTree = "<group>";
+		};
+		C6D945DE231FF3A10097B87D /* PersonCenterScrollManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6D945DF231FF3A10097B87D /* PersonCenterScrollManagerTests.m */,
+				C6D945E1231FF3A10097B87D /* Info.plist */,
+			);
+			path = PersonCenterScrollManagerTests;
+			sourceTree = "<group>";
+		};
+		C6D945E9231FF3A10097B87D /* PersonCenterScrollManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6D945EA231FF3A10097B87D /* PersonCenterScrollManagerUITests.m */,
+				C6D945EC231FF3A10097B87D /* Info.plist */,
+			);
+			path = PersonCenterScrollManagerUITests;
+			sourceTree = "<group>";
+		};
+		C6D945FA231FF5E70097B87D /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				C6D945FB231FF5E70097B87D /* UIScrollView+ScrollManager.m */,
+				C6D945FC231FF5E70097B87D /* ScrollManager.m */,
+				C6D945FD231FF5E70097B87D /* UIScrollView+ScrollManager.h */,
+				C6D945FE231FF5E70097B87D /* ScrollManager.h */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		C6D94605231FF6C50097B87D /* center */ = {
+			isa = PBXGroup;
+			children = (
+				C6D94610231FFF520097B87D /* scrollView */,
+				C6D94606231FF7030097B87D /* PersonalCenterViewController.h */,
+				C6D94607231FF7030097B87D /* PersonalCenterViewController.m */,
+				C6D9460B231FF72B0097B87D /* SubViewController.h */,
+				C6D9460C231FF72B0097B87D /* SubViewController.m */,
+			);
+			path = center;
+			sourceTree = "<group>";
+		};
+		C6D94610231FFF520097B87D /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C6D94611231FFF820097B87D /* BaseScrollView.h */,
+				C6D94612231FFF820097B87D /* BaseScrollView.m */,
+			);
+			path = scrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6D945BF231FF39F0097B87D /* PersonCenterScrollManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D945EF231FF3A10097B87D /* Build configuration list for PBXNativeTarget "PersonCenterScrollManager" */;
+			buildPhases = (
+				990B5055CF30AD07B44F7863 /* [CP] Check Pods Manifest.lock */,
+				C6D945BC231FF39F0097B87D /* Sources */,
+				C6D945BD231FF39F0097B87D /* Frameworks */,
+				C6D945BE231FF39F0097B87D /* Resources */,
+				30FC6E3FF657FED3AE48466E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonCenterScrollManager;
+			productName = PersonCenterScrollManager;
+			productReference = C6D945C0231FF39F0097B87D /* PersonCenterScrollManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6D945DA231FF3A10097B87D /* PersonCenterScrollManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D945F2231FF3A10097B87D /* Build configuration list for PBXNativeTarget "PersonCenterScrollManagerTests" */;
+			buildPhases = (
+				39B8D197DF97ED32E8E64341 /* [CP] Check Pods Manifest.lock */,
+				C6D945D7231FF3A10097B87D /* Sources */,
+				C6D945D8231FF3A10097B87D /* Frameworks */,
+				C6D945D9231FF3A10097B87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D945DD231FF3A10097B87D /* PBXTargetDependency */,
+			);
+			name = PersonCenterScrollManagerTests;
+			productName = PersonCenterScrollManagerTests;
+			productReference = C6D945DB231FF3A10097B87D /* PersonCenterScrollManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6D945E5231FF3A10097B87D /* PersonCenterScrollManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D945F5231FF3A10097B87D /* Build configuration list for PBXNativeTarget "PersonCenterScrollManagerUITests" */;
+			buildPhases = (
+				5A4DA499036EDE868C2E3CC1 /* [CP] Check Pods Manifest.lock */,
+				C6D945E2231FF3A10097B87D /* Sources */,
+				C6D945E3231FF3A10097B87D /* Frameworks */,
+				C6D945E4231FF3A10097B87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D945E8231FF3A10097B87D /* PBXTargetDependency */,
+			);
+			name = PersonCenterScrollManagerUITests;
+			productName = PersonCenterScrollManagerUITests;
+			productReference = C6D945E6231FF3A10097B87D /* PersonCenterScrollManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6D945B8231FF39F0097B87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = licaicai;
+				TargetAttributes = {
+					C6D945BF231FF39F0097B87D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					C6D945DA231FF3A10097B87D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C6D945BF231FF39F0097B87D;
+					};
+					C6D945E5231FF3A10097B87D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C6D945BF231FF39F0097B87D;
+					};
+				};
+			};
+			buildConfigurationList = C6D945BB231FF39F0097B87D /* Build configuration list for PBXProject "PersonCenterScrollManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6D945B7231FF39F0097B87D;
+			productRefGroup = C6D945C1231FF39F0097B87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6D945BF231FF39F0097B87D /* PersonCenterScrollManager */,
+				C6D945DA231FF3A10097B87D /* PersonCenterScrollManagerTests */,
+				C6D945E5231FF3A10097B87D /* PersonCenterScrollManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6D945BE231FF39F0097B87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D945D3231FF3A10097B87D /* LaunchScreen.storyboard in Resources */,
+				C6D945D0231FF3A10097B87D /* Assets.xcassets in Resources */,
+				C6D945CE231FF39F0097B87D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D945D9231FF3A10097B87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D945E4231FF3A10097B87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30FC6E3FF657FED3AE48466E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PersonCenterScrollManager/Pods-PersonCenterScrollManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PersonCenterScrollManager/Pods-PersonCenterScrollManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PersonCenterScrollManager/Pods-PersonCenterScrollManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B8D197DF97ED32E8E64341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonCenterScrollManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A4DA499036EDE868C2E3CC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonCenterScrollManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990B5055CF30AD07B44F7863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonCenterScrollManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6D945BC231FF39F0097B87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D945FF231FF5E70097B87D /* UIScrollView+ScrollManager.m in Sources */,
+				C6D94613231FFF820097B87D /* BaseScrollView.m in Sources */,
+				C6D945CB231FF39F0097B87D /* ViewController.m in Sources */,
+				C6D94602231FF5E70097B87D /* ScrollManager.m in Sources */,
+				C6D945C5231FF39F0097B87D /* AppDelegate.m in Sources */,
+				C6D945D6231FF3A10097B87D /* main.m in Sources */,
+				C6D945C8231FF39F0097B87D /* SceneDelegate.m in Sources */,
+				C6D94608231FF7030097B87D /* PersonalCenterViewController.m in Sources */,
+				C6D9460D231FF72B0097B87D /* SubViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D945D7231FF3A10097B87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D9460E231FF72B0097B87D /* SubViewController.m in Sources */,
+				C6D94600231FF5E70097B87D /* UIScrollView+ScrollManager.m in Sources */,
+				C6D94609231FF7030097B87D /* PersonalCenterViewController.m in Sources */,
+				C6D945E0231FF3A10097B87D /* PersonCenterScrollManagerTests.m in Sources */,
+				C6D94603231FF5E70097B87D /* ScrollManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D945E2231FF3A10097B87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D9460F231FF72B0097B87D /* SubViewController.m in Sources */,
+				C6D94601231FF5E70097B87D /* UIScrollView+ScrollManager.m in Sources */,
+				C6D9460A231FF7030097B87D /* PersonalCenterViewController.m in Sources */,
+				C6D945EB231FF3A10097B87D /* PersonCenterScrollManagerUITests.m in Sources */,
+				C6D94604231FF5E70097B87D /* ScrollManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6D945DD231FF3A10097B87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D945BF231FF39F0097B87D /* PersonCenterScrollManager */;
+			targetProxy = C6D945DC231FF3A10097B87D /* PBXContainerItemProxy */;
+		};
+		C6D945E8231FF3A10097B87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D945BF231FF39F0097B87D /* PersonCenterScrollManager */;
+			targetProxy = C6D945E7231FF3A10097B87D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6D945CC231FF39F0097B87D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6D945CD231FF39F0097B87D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6D945D1231FF3A10097B87D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6D945D2231FF3A10097B87D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6D945ED231FF3A10097B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6D945EE231FF3A10097B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6D945F0231FF3A10097B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3905C5346C29BDCCC268D1 /* Pods-PersonCenterScrollManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PersonCenterScrollManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidev.PersonCenterScrollManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6D945F1231FF3A10097B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8394EE0339A574353B00BAB7 /* Pods-PersonCenterScrollManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PersonCenterScrollManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidev.PersonCenterScrollManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6D945F3231FF3A10097B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5566FA4A78AAF9AB0308CF /* Pods-PersonCenterScrollManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PersonCenterScrollManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidev.PersonCenterScrollManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonCenterScrollManager.app/PersonCenterScrollManager";
+			};
+			name = Debug;
+		};
+		C6D945F4231FF3A10097B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1588E7B50C2D55E243C28C61 /* Pods-PersonCenterScrollManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PersonCenterScrollManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidev.PersonCenterScrollManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonCenterScrollManager.app/PersonCenterScrollManager";
+			};
+			name = Release;
+		};
+		C6D945F6231FF3A10097B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CD413FE4F1177C21CC3718 /* Pods-PersonCenterScrollManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PersonCenterScrollManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidev.PersonCenterScrollManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PersonCenterScrollManager;
+			};
+			name = Debug;
+		};
+		C6D945F7231FF3A10097B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A717EF39F9BE8B72F291625B /* Pods-PersonCenterScrollManagerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PersonCenterScrollManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caidev.PersonCenterScrollManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PersonCenterScrollManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6D945BB231FF39F0097B87D /* Build configuration list for PBXProject "PersonCenterScrollManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D945ED231FF3A10097B87D /* Debug */,
+				C6D945EE231FF3A10097B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D945EF231FF3A10097B87D /* Build configuration list for PBXNativeTarget "PersonCenterScrollManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D945F0231FF3A10097B87D /* Debug */,
+				C6D945F1231FF3A10097B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D945F2231FF3A10097B87D /* Build configuration list for PBXNativeTarget "PersonCenterScrollManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D945F3231FF3A10097B87D /* Debug */,
+				C6D945F4231FF3A10097B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D945F5231FF3A10097B87D /* Build configuration list for PBXNativeTarget "PersonCenterScrollManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D945F6231FF3A10097B87D /* Debug */,
+				C6D945F7231FF3A10097B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6D945B8231FF39F0097B87D /* Project object */;
+}
