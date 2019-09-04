@@ -1,0 +1,2 @@
+# PersonCenterScrollManager
+嵌套滑动问题简单化处理
