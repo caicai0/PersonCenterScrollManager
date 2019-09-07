@@ -20,48 +20,52 @@
     return self;
 }
 
-            - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-                if(self.enable){
-                    if (scrollView == self.parentScrollView) {
-                        UIEdgeInsets edgeInsets = UIEdgeInsetsMake(scrollView.contentInset.top + scrollView.adjustedContentInset.top,
-                                                                   scrollView.contentInset.left + scrollView.adjustedContentInset.left,
-                                                                   scrollView.contentInset.bottom + scrollView.adjustedContentInset.bottom,
-                                                                   scrollView.contentInset.right + scrollView.adjustedContentInset.right);
-                        CGFloat contentOffsetY = scrollView.contentOffset.y + edgeInsets.top;
-                        CGFloat criticalPointOffsetY = scrollView.contentSize.height + edgeInsets.top + edgeInsets.bottom - scrollView.bounds.size.height;
-                        if (contentOffsetY - criticalPointOffsetY >= FLT_EPSILON) {
-                            scrollView.canNotScroll = YES;
-                            scrollView.contentOffset = CGPointMake(0, criticalPointOffsetY - edgeInsets.top);
-                            [self.childScrollViews enumerateObjectsUsingBlock:^(UIScrollView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                                obj.canNotScroll = NO;
-                            }];
-                        } else {
-                            if (scrollView.canNotScroll) {
-                                scrollView.contentOffset = CGPointMake(0, criticalPointOffsetY - edgeInsets.top);
-                            } else {
-                                [self.childScrollViews enumerateObjectsUsingBlock:^(UIScrollView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                                    obj.canNotScroll = YES;
-                                }];
-                            }
-                        }
-                    }else{
-                        if ([self.childScrollViews containsObject:scrollView]) {
-                            if (!scrollView.canNotScroll) {
-                                if (scrollView.contentOffset.y <= 0) {
-                                    scrollView.canNotScroll = YES;
-                                    self.parentScrollView.canNotScroll = NO;
-                                    [self.childScrollViews enumerateObjectsUsingBlock:^(UIScrollView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                                        obj.contentOffset = CGPointMake(obj.contentOffset.x, -obj.contentInset.top);
-                                        obj.canNotScroll = YES;
-                                    }];
-                                }
-                            } else {
-                                scrollView.canNotScroll = YES;
-                                scrollView.contentOffset = CGPointMake(scrollView.contentOffset.x, -scrollView.contentInset.top);
-                            }
-                        }
-                    }
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    if(self.enable){
+        UIEdgeInsets edgeInsets = scrollView.contentInset;
+        if (@available(iOS 11.0, *)) {
+            edgeInsets = UIEdgeInsetsMake(scrollView.contentInset.top + scrollView.adjustedContentInset.top,
+            scrollView.contentInset.left + scrollView.adjustedContentInset.left,
+            scrollView.contentInset.bottom + scrollView.adjustedContentInset.bottom,
+            scrollView.contentInset.right + scrollView.adjustedContentInset.right);
+        }
+        if (scrollView == self.parentScrollView) {
+            CGFloat contentOffsetY = scrollView.contentOffset.y + edgeInsets.top;
+            CGFloat criticalPointOffsetY = scrollView.contentSize.height + edgeInsets.top + edgeInsets.bottom - scrollView.bounds.size.height;
+            if (contentOffsetY - criticalPointOffsetY >= FLT_EPSILON) {
+                scrollView.canNotScroll = YES;
+                scrollView.contentOffset = CGPointMake(0, criticalPointOffsetY - edgeInsets.top);
+                [self.childScrollViews enumerateObjectsUsingBlock:^(UIScrollView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                    obj.canNotScroll = NO;
+                }];
+            } else {
+                if (scrollView.canNotScroll) {
+                    scrollView.contentOffset = CGPointMake(0, criticalPointOffsetY - edgeInsets.top);
+                } else {
+                    [self.childScrollViews enumerateObjectsUsingBlock:^(UIScrollView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                        obj.canNotScroll = YES;
+                    }];
                 }
             }
+        }else{
+            if ([self.childScrollViews containsObject:scrollView]) {
+                if (!scrollView.canNotScroll) {
+                    CGFloat contentOffsetY = scrollView.contentOffset.y + edgeInsets.top;
+                    if (contentOffsetY <= 0) {
+                        scrollView.canNotScroll = YES;
+                        self.parentScrollView.canNotScroll = NO;
+                        [self.childScrollViews enumerateObjectsUsingBlock:^(UIScrollView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                            obj.contentOffset = CGPointMake(obj.contentOffset.x, -edgeInsets.top);
+                            obj.canNotScroll = YES;
+                        }];
+                    }
+                } else {
+                    scrollView.canNotScroll = YES;
+                    scrollView.contentOffset = CGPointMake(scrollView.contentOffset.x, -edgeInsets.top);
+                }
+            }
+        }
+    }
+}
 
 @end
